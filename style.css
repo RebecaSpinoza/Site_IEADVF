@@ -1,0 +1,88 @@
+
+body {
+    background: #000;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-family: sfpro;
+}
+.logoVF{
+    width: 7em;
+    height: 7em;
+    padding: 10px;
+   
+}
+.logoHome{
+    width: 3em;
+    height: 3em;
+    padding: 10px;
+}
+a {
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: sfpro;
+}
+header {
+    background: #000;
+    /* width: 1264px; */
+    padding: 0.2em 0;
+    display: flex;
+    justify-content:center;
+    color: #ffffff;
+    align-items: center;
+}
+
+.header_container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+.titulo-principal{ 
+       display: inline-block;
+       align-items: center;
+       padding: 15px;
+       font-family: sfpro;
+       letter-spacing: 4px;
+}
+@font-face {
+    font-family: sfpro;
+    src: url(SF-Pro-Rounded-Regular.otf);
+}
+.titulo-pagina{
+       display: flex;
+       justify-content: center;
+       font-size: 2em;
+       font-family: sfpro;
+       color: #ffffff;
+       letter-spacing: 4px;
+       text-shadow: black 0.1em 0.1em 0.2em;
+}
+.container-botoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.botao{
+    width: 15em;
+    min-height: 1em;
+    font-family: sfpro;
+    letter-spacing: 4px;
+    padding: 1em;
+    font-size: 1.5em;
+    margin: 1em;
+    border: 1px solid;
+    border-color: #ffffff;
+    border-radius: 2em;
+    color: #ffffff;
+    background-color: #000;
+}
+button:hover{
+    background-color: #d68d04;
+    color: black;
+    border: 1px solid;
+    
+}
